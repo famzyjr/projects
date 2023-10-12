@@ -1,0 +1,60 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav a{
+ text-decoration: none;
+}
+
+a{
+    color: black;
+    margin-left: 30px;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+
+.link{
+    
+}
+
+li{
+    list-style: none;
+    margin: 50px;
+}
+
+.doc{
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+nav{
+position: fixed;
+top: 0;
+ left: 0;
+ min-width: 290px;
+ top: 0px;
+ left: 0px;
+ width: 300px;
+ height: 100%;
+ border-right: solid;
+ border-color: rgba(0, 22, 22, 0.4);
+}
+
+ul{
+    position: relative;
+    height: 100%;
+    margin-left: -89px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+
+   
+
+
+ul li {
+    border-bottom: 1px solid black;
+    width: 300px;
+}
